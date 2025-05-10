@@ -25,6 +25,8 @@ A lightweight desktop widget to monitor your internet download and upload speeds
    ```bash
    python internet-speed-widget.py
    ```
+   
+   ![Screenshot 2025-05-10 145001](https://github.com/user-attachments/assets/49c40f78-0590-41c9-b89e-077414d9902a)
 
 ## License
 This project is licensed under the MIT License.
