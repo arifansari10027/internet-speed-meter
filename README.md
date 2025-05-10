@@ -28,5 +28,8 @@ A lightweight desktop widget to monitor your internet download and upload speeds
    
    ![Screenshot 2025-05-10 145001](https://github.com/user-attachments/assets/49c40f78-0590-41c9-b89e-077414d9902a)
 
+## EXE File
+    ![Download](https://github.com/arifansari10027/internet-speed-meter/actions/runs/14944239690/artifacts/3098793907)
+
 ## License
 This project is licensed under the MIT License.
