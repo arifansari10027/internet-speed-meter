@@ -24,9 +24,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Verify PyInstaller installation
+      run: |
+        python -m PyInstaller --version
+
     - name: Build executable
       run: |
-        pyinstaller --onefile --noconsole --icon=logo.ico --add-data "download_icon.png;." --add-data "upload_icon.png;." internet-speed-widget.py
+        python -m PyInstaller --onefile --noconsole --icon=logo.ico --add-data "download_icon.png;." --add-data "upload_icon.png;." internet-speed-widget.py
 
     - name: upload artifact
       uses: actions/upload-artifact@v4
